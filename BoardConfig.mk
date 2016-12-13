@@ -17,7 +17,7 @@
 DEVICE_PATH := device/lge/h918
 
 # inherit from common g5
--include device/lge/g5-common/BoardConfigCommon.mk
+-include device/lge/v20-common/BoardConfigCommon.mk
 
 TARGET_OTA_ASSERT_DEVICE := h918
 
