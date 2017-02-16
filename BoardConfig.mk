@@ -25,7 +25,7 @@ TARGET_OTA_ASSERT_DEVICE := h918
 TARGET_KERNEL_CONFIG := lineageos_h918_defconfig
 
 # Properties
-TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # inherit from the proprietary version
 -include vendor/lge/h918/BoardConfigVendor.mk
